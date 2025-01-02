@@ -11,7 +11,9 @@ SECRET_KEY = 'django-insecure-r*g)0%(_%0(9%^v56s@fi5h5b4b(!^4d(blgvq7+vv)q#w6ve3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False  # Set to False in production
 
-ALLOWED_HOSTS = ['https://react-django-app-8lbj.onrender.com', '127.0.0.1', 'localhost']
+# ALLOWED_HOSTS = ['https://react-django-app-8lbj.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
+
 
 # Application definition
 INSTALLED_APPS = [

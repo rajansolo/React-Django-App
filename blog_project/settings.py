@@ -112,7 +112,7 @@ CHANNEL_LAYERS = {
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React development server
+    "https://react-django-app-8lbj.onrender.com",  # React development server
 ]
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
